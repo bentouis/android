@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.ecomapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/EcomApp">
+        <activity android:name="com.android.ecomapp.OrderSucceessActivity"></activity>
+        <activity android:name="com.android.ecomapp.PlaceYourOrderActivity" />
+        <activity android:name="com.android.ecomapp.RestaurantMenuActivity" />
+        <activity android:name="com.android.ecomapp.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.ecomapp.MainActivity" />
+    </application>
+
+</manifest>
